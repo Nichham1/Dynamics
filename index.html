@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Dynamic Website Development</title>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="CSS/bootstrap.min.css">
+     <link rel="stylesheet" href="CSS/menu.css">
+     <link rel="stylesheet" type="text/css" href="CSS/site.css">
+     <script src="JS/jquery.js"></script>
+     <script src="JS/bootstrap.min.js"></script>
+</head>
+<body>
+    <div id='cssmenu'>
+        <ul>
+            <li class='active'><a href='#'>Home</a></li>
+            <li><a href='#'>Products</a></li>
+            <li><a href='#'>Company</a></li>
+            <li><a href='#'>Contact</a></li>
+        </ul>
+    </div>
+    <div>
+        <h1 class="hdr1">One</h1>
+        <h1 class="hdr2">And</h1>
+        <h1 class="hdr3">Move</h1>
+        <p class="par1"> Are you ready for this</p>
+    </div>
+
+    <div id="Boten">
+        <button class="bt1">First</button>
+        <button class="bt2">Second</button>
+        <button class="bt3">Third</button>
+
+    </div>
+
+    <script>
+        $(document).ready(function(){
+        //document ready function.
+        $(".hdr1").hide(); $(".hdr2").hide(); $(".hdr3").hide(); $(".par1").hide();
+        $(".bt1").click(function(){ $("hdr1").show().fadeIn(300);  });
+        $(".bt2").click(function(){           });
+        $(".bt3").click(function(){          })
+        $("h3").css("color","blue"); 
+  
+        });
+    </script>
+
+</body> 
+
+</html>

@@ -1,0 +1,14 @@
+body{
+    
+    text-align: center;
+    background-color : rgb(224, 150, 243);
+}
+
+#Boten{
+    position:absolute;
+    left:50%;
+    right:50%;
+    top:50%;
+    bottom:50%;
+}
+
